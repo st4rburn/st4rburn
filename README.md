@@ -2,7 +2,7 @@
 
 # Hello!
 
-I'm Memphis Marshall, a student studying computer science at Edith Cowan University. I also like security and enjoy CTFs and pentesting, plus researching and experimenting with new exploits. I also write a lot of open-source code because I rely a lot on other projects and want to allow others to do the same. I believe it's an important for programming to be accessible to all. My main languages are Rust, Python, JavaScript (node.js), and C++, but I like to experiment and occasionally use a lot more.
+I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. I'm a big supporter of open source, though I don't often get time to contribute back to the projects I use, but most code I write for fun is available for others to use. I believe software and cybersecurity should be accessible to all and enjoy the opportunity to educate and learn from others in the field. If if you have any questions or comments on what I do, feel free to contact me.
 
 # Projects
 ## LunaJuice
