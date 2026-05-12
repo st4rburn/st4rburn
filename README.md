@@ -2,7 +2,7 @@
 
 # Hello!
 
-I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. If you have any questions or comments on what I do, feel free to [contact](#ContactMe) me. I also have a [blog](https://aurillium.space) where I intend to write up some of the more interesting stuff I do.
+I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. If you have any questions or comments on what I do, feel free to [contact](#Contact) me. I also have a [blog](https://aurillium.space) where I intend to write up some of the more interesting stuff I do.
 
 # Projects
 
@@ -51,7 +51,7 @@ A modular Discord bot system for Discord.js. Every file contains code to handle 
 
 ###### [github-stats-extended](https://github.com/stats-organization/github-stats-extended) by [stats-organization](https://github.com/stats-organization), originally by [anuraghazra](https://github.com/anuraghazra).
 
-# Contact<a name="ContactMe"></a>
+# Contact<a name="Contact"></a>
 
 If it's about a specific project, there's probably a place for it in the README, but otherwise you can [email me](mailto:memphism2003@gmail.com). While you're here, you should [check out my blog!](https://aurillium.space)
 
