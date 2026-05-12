@@ -2,25 +2,30 @@
 
 # Hello!
 
-I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. I'm a big supporter of open source, though I don't often get time to contribute back to the projects I use, but most code I write for fun is available for others to use. I believe software and cybersecurity should be accessible to all and enjoy the opportunity to educate and learn from others in the field. If if you have any questions or comments on what I do, feel free to contact me.
+I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. I'm a big supporter of open source, though I don't often get time to contribute back to the projects I use, but most code I write for fun is available for others here. I believe software and cybersecurity should be accessible to all and enjoy the opportunity to educate and learn from others in the field. If if you have any questions or comments on what I do, feel free to contact me.
 
 # Projects
-## LunaJuice
-LunaJuice is an experimental tool to monitor and log the activities of suspicious Windows processes. It can be injected by normal users or administrators (to work on any non-protected process) and hosts a local RPC server to query and change configuration. Its goal is to be easily integrated into defensive workflows and be highly customisable to the user's needs.
 
-[![LunaJuice Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aurillium&repo=lunajuice&theme=algolia)](https://github.com/Aurillium/LunaJuice)
+## RootRemover (CVE-2026-31431)
+RootRemover is a method of using CVE-2026-31431 (CopyFail) to temporarily remove the root password of a host, allowing for easy passwordless elevation. It's a modification of [rootsecdev's version](https://github.com/rootsecdev/cve_2026_31431) which sets your UID to 0 upon a fresh login (requiring the current user's password). Both of these differ to the original PoC in that they should work on any architecture and aren't dependent on modifying SUID binaries.
+
+[![RootRemover Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aurillium&repo=RootRemover&theme=algolia)](https://github.com/Aurillium/RootRemover)
+
+## Roku TV ECP2
+
+A Python library to for controlling Roku TV devices on the same network as you, regardless whether the regular ECP API is enabled in settings. This was developed by reverse engineering ECP2, the protocol Roku TVs use to communicate with the mobile app and can search the network for TVs to interface with.
+
+[![ECP2 Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aurillium&repo=ECP2&theme=algolia)](https://github.com/Aurillium/ECP2)
 
 ## Invisirun
 An alternative commandline spoofing proof-of-concept. Invisirun uses NtCreateUserProcess to pad the `Commandline` property of the PEB with null characters, aiming to avoid detection by trailing spaces/other characters.
 
 [![Invisirun Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aurillium&repo=invisirun&theme=algolia)](https://github.com/Aurillium/Invisirun)
 
-## Pronoun Bot
-PronounBot is a Discord bot designed to help gender-questioning people try out new names and prnouns, complete with lots of flexible options and a community Discord server to allow non-programmers to contribute to the project in their own way.
-##### Discord Stats:
-[![Discord Bots](https://top.gg/api/widget/servers/983907393823969312.svg)](https://top.gg/bot/983907393823969312) [![Discord Bots](https://top.gg/api/widget/upvotes/983907393823969312.svg)](https://top.gg/bot/983907393823969312)
-##### GitHub Repo
-[![Pronoun Bot Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aurillium&repo=pronounbot&theme=algolia)](https://github.com/Aurillium/PronounBot)
+## LunaJuice
+LunaJuice is an experimental tool created during an internship to monitor and log the activities of suspicious Windows processes. It can be injected by normal users or administrators (to work on any non-protected process) and hosts a local RPC server to query and change configuration. Its goal is to be easily integrated into defensive workflows and be highly customisable to the user's needs.
+
+[![LunaJuice Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aurillium&repo=lunajuice&theme=algolia)](https://github.com/Aurillium/LunaJuice)
 
 ## MCServerGenerator
 A Python script to generate Minecraft servers using various server software. Very useful for testing plugins and mods on different versions; supports Paper, Spigot, Fabric, and vanilla.
