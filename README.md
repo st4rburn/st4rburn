@@ -8,6 +8,14 @@ I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessi
 
 # Projects
 
+## PublicPasswd (CVE-2026-46333 and CVE-2026-31431)
+
+<a href="https://github.com/Aurillium/public-passwd"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=public-passwd&theme=algolia" alt="PublicPasswd README card" align="right"></a>
+
+PublicPasswd is an exploit chain which uses CVE-2026-46333 to get a read-only file descriptor for `/etc/shadow`, and then CVE-2026-31431 (CopyFail) to write to it. The tool dumps the hashes of all users who have a password on the system, and allows changing any other user's password without authentication or elevation to root. Can be run as any user and requires no special permissions.
+
+<br clear="right">
+
 ## RootRemover (CVE-2026-31431)
 
 <a href="https://github.com/Aurillium/RootRemover"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=RootRemover&theme=algolia" alt="RootRemover README card" align="right"></a>
