@@ -48,14 +48,6 @@ LunaJuice is an experimental tool created during an internship to monitor and lo
 
 <br clear="right">
 
-## MCServerGenerator
-
-<a href="https://github.com/Aurillium/MCServerGenerator"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=MCServerGenerator&theme=algolia" alt="MCServerGenerator README card" align="right"></a>
-
-A Python script to generate Minecraft servers using various server software. Very useful for testing plugins and mods on different versions; supports Paper, Spigot, Fabric, and vanilla.
-
-<br clear="right">
-
 <div align="center">
   
 # GitHub Stats
