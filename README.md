@@ -1,16 +1,16 @@
 <div align="center">
 
-# Hello!
+# Hi!
 
 </div>
 
-I'm Memphis Marshall, a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. If you have any questions or comments on what I do, feel free to [contact](#Contact) me. I also have a [blog](https://aurillium.space) where I intend to write up some of my more interesting projects.
+I'm a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. If you have any questions or comments on what I do, feel free to [contact](#Contact) me. I also have a [blog](https://aurillium.space) where I intend to write up some of my more interesting projects.
 
 # Projects
 
 ## PublicPasswd (CVE-2026-46333 and CVE-2026-31431)
 
-<a href="https://github.com/Aurillium/public-passwd"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=public-passwd&theme=algolia" alt="PublicPasswd README card" align="right"></a>
+<a href="https://github.com/st4rburn/public-passwd"><img src="https://github-stats-extended.vercel.app/api/pin/?username=st4rburn&repo=public-passwd&theme=algolia" alt="PublicPasswd README card" align="right"></a>
 
 PublicPasswd is an exploit chain which uses CVE-2026-46333 to get a read-only file descriptor for `/etc/shadow`, and then CVE-2026-31431 (CopyFail) to write to it. The tool dumps the hashes of all users who have a password on the system, and allows changing any other user's password without authentication or elevation to root. Can be run as any user and requires no special permissions.
 
@@ -18,7 +18,7 @@ PublicPasswd is an exploit chain which uses CVE-2026-46333 to get a read-only fi
 
 ## RootRemover (CVE-2026-31431)
 
-<a href="https://github.com/Aurillium/RootRemover"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=RootRemover&theme=algolia" alt="RootRemover README card" align="right"></a>
+<a href="https://github.com/st4rburn/RootRemover"><img src="https://github-stats-extended.vercel.app/api/pin/?username=st4rburn&repo=RootRemover&theme=algolia" alt="RootRemover README card" align="right"></a>
 
 RootRemover is a method of using CVE-2026-31431 (CopyFail) to temporarily remove the root password of a host, allowing for easy passwordless elevation. It's a modification of [rootsecdev's version](https://github.com/rootsecdev/cve_2026_31431) which sets your UID to 0 upon a fresh login (requiring the current user's password). Both of these differ to the original PoC in that they should work on any architecture and aren't dependent on modifying SUID binaries.
 
@@ -26,7 +26,7 @@ RootRemover is a method of using CVE-2026-31431 (CopyFail) to temporarily remove
 
 ## Roku TV ECP2
 
-<a href="https://github.com/Aurillium/ECP2"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=ECP2&theme=algolia" alt="ECP2 README card" align="right"></a>
+<a href="https://github.com/st4rburn/ECP2"><img src="https://github-stats-extended.vercel.app/api/pin/?username=st4rburn&repo=ECP2&theme=algolia" alt="ECP2 README card" align="right"></a>
 
 A Python library to for controlling Roku TV devices on the same network as you, regardless whether the regular ECP API is enabled in settings. This was developed by reverse engineering ECP2, the protocol Roku TVs use to communicate with the mobile app and can search the network for TVs to interface with.
 
@@ -34,7 +34,7 @@ A Python library to for controlling Roku TV devices on the same network as you, 
 
 ## Invisirun
 
-<a href="https://github.com/Aurillium/invisirun"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=invisirun&theme=algolia" alt="Invisirun README card" align="right"></a>
+<a href="https://github.com/st4rburn/invisirun"><img src="https://github-stats-extended.vercel.app/api/pin/?username=st4rburn&repo=invisirun&theme=algolia" alt="Invisirun README card" align="right"></a>
 
 An alternative commandline spoofing proof-of-concept. Invisirun uses NtCreateUserProcess to pad the `Commandline` property of the PEB with null characters, aiming to avoid detection by trailing spaces/other characters.
 
@@ -42,7 +42,7 @@ An alternative commandline spoofing proof-of-concept. Invisirun uses NtCreateUse
 
 ## LunaJuice
 
-<a href="https://github.com/Aurillium/LunaJuice"><img src="https://github-stats-extended.vercel.app/api/pin/?username=aurillium&repo=LunaJuice&theme=algolia" alt="LunaJuice README card" align="right"></a>
+<a href="https://github.com/st4rburn/LunaJuice"><img src="https://github-stats-extended.vercel.app/api/pin/?username=st4rburn&repo=LunaJuice&theme=algolia" alt="LunaJuice README card" align="right"></a>
 
 LunaJuice is an experimental tool created during an internship to monitor and log the activities of suspicious Windows processes. It can be injected by normal users or administrators (to work on any non-protected process) and hosts a local RPC server to query and change configuration. Its goal is to be easily integrated into defensive workflows and be highly customisable to the user's needs.
 
@@ -52,8 +52,8 @@ LunaJuice is an experimental tool created during an internship to monitor and lo
   
 # GitHub Stats
 
-<img src="https://github-stats-extended.vercel.app/api?username=aurillium&theme=algolia" height="165" alt="My GitHub stats">
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=aurillium&theme=algolia&layout=compact" height="165" alt="My top languages">
+<img src="https://github-stats-extended.vercel.app/api?username=st4rburn&theme=algolia" height="165" alt="My GitHub stats">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=st4rburn&theme=algolia&layout=compact" height="165" alt="My top languages">
 
 ###### [github-stats-extended](https://github.com/stats-organization/github-stats-extended) by [stats-organization](https://github.com/stats-organization), originally by [anuraghazra](https://github.com/anuraghazra).
 
