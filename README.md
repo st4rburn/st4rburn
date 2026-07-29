@@ -97,6 +97,6 @@ LunaJuice is an experimental tool created during an internship to monitor and lo
 
 # Contact<a name="Contact"></a>
 
-If it's about a specific project, there's probably a place for it in the README, but otherwise you can [email me](mailto:memphism2003@gmail.com) or contact me on Discord **@aurillium**. While you're here, you should [check out my blog!](https://aurillium.space)
+If it's about a specific project, there's probably a place for it in the README, but otherwise you can [email me](mailto:me@miela.dev) or contact me on Discord `@st4rburn.`. While you're here, you should [check out my blog!](https://st4rburn.dev)
 
 </div>
