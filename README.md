@@ -99,6 +99,6 @@ LunaJuice is an experimental tool created during an internship to monitor and lo
 
 # Contact<a name="Contact"></a>
 
-If it's about a specific project, there's probably a place for it in the README, but otherwise you can [email me](mailto:me@miela.dev) or contact me on Discord `@st4rburn.`. While you're here, you should [check out my blog!](https://st4rburn.dev)
+If it's about a specific project, there's probably a place for it in the README, but otherwise you can email me at **m<span>e&#x40;mi<span>ela&period;</span>&#100;&#101;</span>&#118;** or contact me on Discord `@st4rburn.`. While you're here, you should [check out my blog!](https://st4rburn.dev)
 
 </div>
