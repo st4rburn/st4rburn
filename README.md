@@ -4,7 +4,9 @@
 
 </div>
 
-I'm a SOC analyst at [Seamless Intelligence](https://seamlessintelligence.com.au/) in Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I have a strong interest for cybersecurity and software development, I enjoy CTFs and HackTheBox in my spare time, plus researching and experimenting with new exploits. If you have any questions or comments on what I do, feel free to [contact](#Contact) me. I also have a [blog](https://aurillium.space) where I intend to write up some of my more interesting projects.
+I'm a SOC analyst from Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I love cybersecurity and software development, both interests I channel for reverse engineering and exploit development. I'm a big supporter of open source software, so most of my projects outside of work are available here. I believe software and cybersecurity should be accessible to all, I enjoy the opportunity to educate and learn from others in the field and I'm always down for a CTF, so I'm an active participant in the community here in Perth. If you see me around say hi!
+
+I also have a [blog](https://st4rburn.dev) where you can see writeups of the stuff I do.
 
 # Projects
 
