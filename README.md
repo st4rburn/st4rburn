@@ -4,7 +4,7 @@
 
 </div>
 
-I'm a SOC analyst from Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I love cybersecurity and software development, both interests I channel for reverse engineering and exploit development. I'm a big supporter of open source software, so most of my projects outside of work are available here. I believe software and cybersecurity should be accessible to all, I enjoy the opportunity to educate and learn from others in the field and I'm always down for a CTF, so I'm an active participant in the community here in Perth. If you see me around say hi!
+I'm Miela, a pentester from Perth, Western Australia and graduate from [Edith Cowan University](https://www.ecu.edu.au/). I love cybersecurity and software development, both interests I channel for reverse engineering and exploit development. I'm a big supporter of open source software, so most of my projects outside of work are available here. I believe software and cybersecurity should be accessible to all, I enjoy the opportunity to educate and learn from others in the field and I'm always down for a CTF, so I'm an active participant in the community here in Perth. If you see me around say hi!
 
 I also have a [blog](https://st4rburn.dev) where you can see writeups of the stuff I do.
 
